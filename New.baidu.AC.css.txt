@@ -66,7 +66,7 @@ body>#wrapper,body>.wrap,body>#main,body #appbar,body #hdtbSum {
 
 /**搜索页面标签框颜色**/
 #wrapper #content_left .c-container,.srg>.g {
-    -webkit-box-shadow: 0 0 2px rgba(18, 56, 141, 0.73);
+    -webkit-box-shadow: 0 0 2px #00a7ef9c;
 }
 
 /**网页搜索标签内嵌标签**/
@@ -79,6 +79,39 @@ body>#wrapper,body>.wrap,body>#main,body #appbar,body #hdtbSum {
     height:30px !important;
     background:transparent !important;
     border-bottom:1px solid #071440 !important;
+}
+
+.c-tabs-nav {
+    border-bottom: 1px solid #071a54;
+    background-color: transparent;
+}
+
+.op-stockdynamic-moretab-map {
+    background: #97cce64d !important;
+}
+
+.op-stockdynamic-moretab-tabs-nav .op-stockdynamic-moretab-tabs-nav-selected {
+    background: #a4d7f378 !important;
+    color: #163f8f !important;
+    border: 1px solid #12317b !important;
+    box-shadow:25px 25px 25px rgba(94, 243, 223, 0.41) inset;
+}
+
+.op-stockdynamic-moretab-tabs-nav li {
+    background: #a4d7f378 !important;
+    color: #163f8f !important;
+    border-left: 1px solid #0b2364 !important;
+}
+
+.c-table th {
+    border-color: #0f2667;
+    background-color: #fafafa00;
+}
+
+.c-btn, .c-btn:visited {
+    color: #333!important;
+    background-color: #a4d7f33d !important;
+    border: 1px solid #12317b4a !important;
 }
 
 /**内嵌标签框**/
@@ -136,4 +169,13 @@ body #head {
 /**更改搜索框里的文字颜色**/
 .gLFyf,.s_ipt{
     color: #00b377 !important;
+}
+
+/**相关搜索**/
+#wrapper #rs {
+    background-color: #d1e5f833 !important;
+    border: 1px solid #c7fafc !important;
+}
+#wrapper #rs .tt {
+    background-color: transparent;
 }
