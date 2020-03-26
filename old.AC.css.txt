@@ -1,0 +1,184 @@
+/**目前在重写，这个也能用**/
+//
+//
+/**放大AC脚本自定义样式编辑窗口【这个默认是关闭的，需要各位根据自己的电脑屏幕调整大小，
+我的分辨率是1980*1920的17.3寸的笔记本屏幕，用现在的300px正好合适，不是我这样的，就自己调小或者调大就可以了
+#sp-ac-userstyleTEXT {
+    height: 300px !important;
+}**/
+/****URL是图片链接****/
+body{
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment:fixed;
+    background-image: url('https://img3.duitang.com/uploads/item/201507/03/20150703223617_zKCB5.jpeg');
+}
+/*****窗口背景的透明虚化效果*****/
+body>#wrapper,body>.wrap,body>#main,body #appbar,body #hdtbSum{
+    background: rgba(225,225,225,0);
+}
+/**搜索结果背景透明，文字不透明**/
+#s_tab, #wrapper #content_left .result, #wrapper #content_left .c-container,.c-table th,.c-btn,#wrapper #rs,#wrapper #rs .tt,#wrapper #content_left .c-container h3,#wrapper #content_left .result h3,.vk_c,.yyjhs{
+    background-color:transparent !important;
+    opacity:1;
+    border-radius: 5px;
+}
+.tab-nav-name[data-a-7701177d] {
+    background:#fafafa00 !important;
+    border-bottom:1px solid #143087 !important;
+}
+#wrapper #s_tab {
+    border-bottom: #e0e0e000 1px solid;
+}
+#head.s_down {
+    box-shadow: 0 0 5px #8880;
+}
+#help {
+    background: transparent;
+}
+#help a {
+    color: #7dafde;
+}
+#foot {
+    border-top: transparent;
+}
+/***google*/
+.minidiv .sfbg {
+    background: #fff0;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0);
+    height: 72px;
+}
+#fbar {
+    background: transparent !important;
+    line-height: 20px !important;
+    min-width: 1173px;
+    border-top: 1px solid transparent !important;
+}
+/**搜索标签栏透明**/
+.t,.g{
+    background-color:transparent !important;
+}
+/**搜索页面标签框颜色**/
+#wrapper #content_left .c-container,.srg>.g {
+    -webkit-box-shadow: 0 0 2px #607334;
+}
+/**搜索页面标签框发光**/
+.uMdZh:hover {
+    background-color: #fafafa00 !important;
+    box-shadow: 0 0 15px 3px rgb(204, 255, 255) !important;
+}
+/**搜索页面的【超链接标签】鼠标移过会发光**/
+#wrapper #content_left .result:hover,#wrapper #content_left .result-op:hover,.srg .g:hover,#content_left .c-tabs-content a:hover,#wrapper #content_left .result-op article:hover {
+    box-shadow:0 0 15px 3px rgb(204, 255, 255);
+    border:1px solid white;
+    background:#def1ef59 !important;
+}
+/**谷歌搜索视频标签框透明加描边【这个尝试了让鼠标滑过发光，但是失败了】**/
+.cv2VAd {
+    border: 1px solid #607334 !important;
+    border-radius: 8px;
+    box-shadow: none;
+}
+g-inner-card {
+    background-color: #effdfe00 !important;
+    border-radius: 2px;
+    display: block;
+    overflow: hidden;
+}
+/**搜索栏透明**/
+#head, .s_form, #foot,.sfbg{
+    opacity: 1;
+    background-color: transparent !important;
+}
+/**搜索预测样式【这个AC脚本不能开lite才有用,开了之后有BUG，试了好多次，没修复这个BUG】**/
+.bdsug {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    background: #c2f9fc78;
+    border: transparent;
+}
+/**更改搜索框里的文字颜色**/
+.gLFyf,.s_ipt{
+    color: #00b377 !important;
+}
+/**百度搜索框透明变圆角【这个AC脚本不能开lite才有用,开了之后我也不会改，试了好多次】**/
+form.fm .s_ipt_wr.bg {
+    border-radius: 30px;
+    background: transparent;
+    width: 66%;
+}/**下面这个是鼠标划过发光【这个失败了】
+.s_ipt_wr:hover,.s_ipt_wr.ipthover {
+    border-color: white !important;
+    box-shadow: 0 0 15px 3px rgb(204, 255, 255) !important;
+}**/
+/**更改搜索页面文字颜色【这个也失败了】
+body a, body a em,p,.c-abstract,.st {
+    text-shadow: 0.5px 0.5px 0.5px pink;
+    text-decoration: none;
+}**/
+/**百度搜索出来的视频源切换按钮**/
+.tabs-li > li.tabs-li-active[data-a-7701177d] {
+    background-color: #e4eef8 !important;
+    color: #3464b3 !important;
+    border-color: #152f84 #152f84 #e4eef8 #152f84 !important;
+}
+/**更改‘百度一下’的样式为透明并且鼠标滑过发光**/
+.s_btn {
+    width: 100px;
+    height: 34px;
+    color: #00b377;
+    letter-spacing: 1px;
+    background: transparent !important;
+    text-shadow: 0.5px 0.5px 0.5px pink;
+    border-bottom: 1px solid rgb(204, 255, 255);
+    outline: medium;
+    *border-bottom: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+form.fm .s_btn:hover {
+    box-shadow:0 0 15px 3px rgb(204, 255, 255);
+    border:1px solid white;
+    background:transparent !important;
+}
+form.fm .s_btn {
+    border-bottom:none;
+}
+/**百度搜索框相机按钮鼠标滑过发光**/
+.soutu-btn:hover {
+    box-shadow: 0 0 15px 3px rgb(204, 255, 255);
+}
+.soutu-btn {
+        background: transparent url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat !important;
+}
+/**更改了翻页按钮样式**/
+#wrapper #page a,#page .pc{
+    background:#94caf1;
+    color: #ffffff;
+    border: 0px solid transparent;
+}
+#wrapper #page strong .pc {
+    background:#a0c0e5;
+    color: #ffffff;
+    box-shadow:0px 0px 25px rgb(255, 255, 255) inset;
+}
+/**更改右侧滚动条颜，不适用于全部网页，目前只适配了百度和谷歌搜索页**/
+::-webkit-scrollbar{
+    width:12px; /*滚动条宽度*/
+}
+::-webkit-scrollbar-track-piece{
+    background-color:rgb(151, 204, 230); /*滑道*/
+    -webkit-border-radius:10px; /*滑道圆角宽度*/
+}
+::-webkit-scrollbar-thumb{
+    background-color:#6587e7; /*滑动条表面*/
+    border:solid 3px rgb(204, 255, 255); /*滑动条边框*/
+    border-radius:10px; /*滑动条圆角宽度*/
+}
+/**谷歌搜索结果中双列显示中独占一行的大标签居中显示
+这个功能没有实现，失败了
+element.style {
+    left: 25% !important;
+}**/
