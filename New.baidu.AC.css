@@ -65,7 +65,7 @@ body>#wrapper,body>.wrap,body>#main,body #appbar,body #hdtbSum {
 }
 
 /**搜索页面标签框颜色**/
-#wrapper #content_left .c-container,.srg>.g {
+#wrapper #content_left .c-container,.srg>.g,#wrapper #content_left .result {
     -webkit-box-shadow: 0 0 2px #00a7ef9c;
 }
 
@@ -145,7 +145,19 @@ body #head {
     background-color: #f8f8f800 !important;
     border-bottom: transparent !important;
 }
-
+/**搜索标签文字**/
+#s_tab a,.ContentItem-title {
+	color: #d200ff;
+}
+#wrapper #s_tab b { /**当前页面按钮**/
+    background-color: #cbf1f378;
+    color: #c900f1;
+    border-bottom: 3px #8900e0 solid;
+}
+/**百度为您找到相关结果&相关工具**/
+.nums,.search_tool {
+    color:#97cce6;
+}
 /**百度搜索页页脚**/
 #foot {
     background: transparent !important;
@@ -201,7 +213,7 @@ em { /**关键词背景和字体颜色**/
 }
 
 /**搜索出来的小字颜色**/
-body {
+body,.c-row {
     color: #8b00ff;
 }
 .op_jingyan_list a,.c-gray,.op-short-video-pc-source { /**百度经验字体文字**/
@@ -209,7 +221,7 @@ body {
     color: #8b00ff !important;;
     font-size: 12px;
 }
-.m, a.m { /**回答时间字体颜色**/
+.m, a.m,div.bbs,.c-author { /**回答时间字体颜色**/
     color: #ff00f1;
 }
 /**百度首页页脚**/
@@ -249,4 +261,7 @@ body {
 /**百度搜索页LOGO**/
 #result_logo img {
     content:url(https://s1.ax1x.com/2020/03/27/GC4Mc9.png);
+}
+.ContentItem-title {
+	color: #d200ff;
 }
