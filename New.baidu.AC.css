@@ -9,7 +9,7 @@ body {
     background-repeat: repeat-y;
     background-size: 100%;
     background-attachment:fixed;
-    background: url('https://img3.duitang.com/uploads/item/201507/03/20150703223617_zKCB5.jpeg')fixed;
+    background: url('https://img3.duitang.com/uploads/item/201507/03/20150703223617_zKCB5.jpeg')fixed;;
 }
 
 /**窗口背景的透明虚化效果**/
@@ -205,9 +205,44 @@ body {
 }
 .op_jingyan_list a,.c-gray,.op-short-video-pc-source { /**百度经验字体文字**/
     text-decoration: none;
-    color: #8b00ff !important;
+    color: #8b00ff !important;;
     font-size: 12px;
 }
 .m, a.m { /**回答时间字体颜色**/
     color: #ff00f1;
+}
+/**百度首页页脚**/
+#bottom_layer { /**透明**/
+    width: 100%;
+    min-width: 1250px;
+    position: fixed;
+    z-index: 302;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    overflow: hidden;
+    color: #9990;
+    zoom: 1;
+    margin: 0;
+    background-color: #fafafa00;
+    text-align: left;
+    line-height: 40px;
+}
+#bottom_layer a { /**左侧文字**/
+    font-size: 12px;
+    text-decoration: none;
+    color: #142d81;
+}
+#bottom_layer .lh { /**右侧文字**/
+    display: inline;
+    margin-right: 20px;
+	color: #0c1849 !important;
+}
+#bottom_layer .s-bottom-layer-right a:hover { /**京公网安备11000002000001号**/
+    color: #011343 !important;
+}
+
+/**百度首页LOGO**/
+#lg .index-logo-src {  		  
+    content:url(https://s1.ax1x.com/2020/03/27/GC4Mc9.png);
 }
