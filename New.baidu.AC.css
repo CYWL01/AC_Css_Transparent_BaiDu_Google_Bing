@@ -246,3 +246,7 @@ body {
 #lg .index-logo-src {  		  
     content:url(https://s1.ax1x.com/2020/03/27/GC4Mc9.png);
 }
+/**百度搜索页LOGO**/
+#result_logo img {
+    content:url(https://s1.ax1x.com/2020/03/27/GC4Mc9.png);
+}
