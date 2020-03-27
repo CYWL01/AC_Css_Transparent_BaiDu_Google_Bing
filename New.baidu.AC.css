@@ -173,9 +173,41 @@ body #head {
 
 /**相关搜索**/
 #wrapper #rs {
-    background-color: #d1e5f833 !important;
+    background-color: #ffffff69 !important;
     border: 1px solid #c7fafc !important;
 }
 #wrapper #rs .tt {
     background-color: transparent;
+}
+
+#wrapper #rs table tr a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #a300ff;
+}
+
+/*高亮显示**/
+em { /**关键词背景和字体颜色**/
+    font-style: normal;
+    color: #000000;
+    background-color: #00ffdee3;
+}
+#wrapper #content_left .result h3 a em { /**关键词颜色**/
+    color: #000000;
+}
+#wrapper #content_left .c-container h3 a { /**除了关键词以外的标题文字颜色**/
+    color: #d200ff;
+}
+
+/**搜索出来的小字颜色**/
+body {
+    color: #8b00ff;
+}
+.op_jingyan_list a,.c-gray,.op-short-video-pc-source { /**百度经验字体文字**/
+    text-decoration: none;
+    color: #8b00ff !important;;
+    font-size: 12px;
+}
+.m, a.m { /**回答时间字体颜色**/
+    color: #ff00f1;
 }
