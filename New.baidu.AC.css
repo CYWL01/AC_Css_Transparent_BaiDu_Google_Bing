@@ -136,6 +136,7 @@ form.fm .s_ipt_wr.bg {
 #wrapper #s_tab {
 ​    border-bottom: #e0e0e000 1px solid;
 ​    background-color: #f8f8f800;
+
 }
 #wrapper #s_tab {
     border-bottom: #e0e0e000 0px solid;
@@ -145,8 +146,11 @@ body #head {
     background-color: #f8f8f800 !important;
     border-bottom: transparent !important;
 }
+#head.s_down {
+    box-shadow: 0 10px 10px 0 rgba(182, 235, 245, 0.77);
+}
 /**搜索标签文字**/
-#s_tab a,.ContentItem-title {
+#s_tab a {
 	color: #d200ff;
 }
 #wrapper #s_tab b { /**当前页面按钮**/
@@ -262,6 +266,7 @@ body,.c-row {
 #result_logo img {
     content:url(https://s1.ax1x.com/2020/03/27/GC4Mc9.png);
 }
+/**知乎标题**/
 .ContentItem-title {
-	color: #d200ff;
+    color: #008cff;
 }
