@@ -270,3 +270,15 @@ body,.c-row {
 .ContentItem-title {
     color: #008cff;
 }
+/**AC自动翻页按钮**/
+.sp-separator a {
+    margin: 0 20px 0 -6px !important;
+    display: inline !important;
+    text-shadow: #fff 0 1px 0 !important;
+    background: none !important;
+    color:#d200ff !important;
+}
+.sp-separator {
+    border-color: #cdeefc;
+    background-color: #ffffff00;
+}
