@@ -7,7 +7,7 @@
 	更改网页背景**/
 body {
     background-repeat: repeat-y;
-    background-size: 100% 100%;
+    background-size: 100%;
     background-attachment:fixed;
     background: url('https://img3.duitang.com/uploads/item/201507/03/20150703223617_zKCB5.jpeg')fixed;
 }
