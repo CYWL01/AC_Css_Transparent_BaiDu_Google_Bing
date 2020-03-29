@@ -282,3 +282,36 @@ body,.c-row {
     border-color: #cdeefc;
     background-color: #ffffff00;
 }
+/**百度首页搜索框**/
+.s_form_nologin .s_ipt_wr {
+    height: 34px;
+    border: 2px solid #bbf7ff;/**边框宽度**
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 539px;/**边框显示长度**/
+    margin-right: 0;
+    border-right-width: 0;/**边框右侧宽度**/
+    border-color: #bbf7ff #bbf7ff #bbf7ff #bbf7ff;/**边框颜色**/
+    overflow: hidden;
+}
+.s_form_nologin .s_ipt {
+    width: 526px;/**搜索框输入字符显示的长度**/
+    height: 22px;
+    font: 16px/18px arial;
+    line-height: 22px;
+    margin: 6px 0 0 7px;
+    padding: 0;
+    background: 0 0;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+}
+.s_form_nologin .s_btn {/**百度一下宽度和高度**/
+    width: 100px;
+    height: 38px;
+}
+.s_form_nologin .s_ipt_wr:hover { /**搜索框发光**/
+    border-color: #fff #ffffff00 #ffffff #fff;
+    box-shadow: 0 0 15px 12px rgb(204, 255, 255) !important;
+}
