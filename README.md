@@ -2,11 +2,9 @@
 
 ### 注意事项
 >点开文件，复制里面的代码，粘贴到油猴脚本AC重定向自定义窗口  
->>`old.AC.css.txt` 
+>>`old.AC.css.txt` <br>这个文件是第一版  
 
-这个文件是第一版  
-
->>`New.baidu.AC.css` 这个文件是第二版  
+>>`New.baidu.AC.css` <br>这个文件是第二版  
 
 >>`BaiDu_20200707`  
 
