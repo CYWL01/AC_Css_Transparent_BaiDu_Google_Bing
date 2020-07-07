@@ -1,0 +1,318 @@
+/**放大AC脚本自定义样式编辑窗口**/
+#sp-ac-userstyleTEXT {
+    height: 300px !important;
+}
+
+/**适用于百度【从这里一直往下】
+	更改网页背景**/
+body {
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment:fixed;
+    background: url('https://img3.duitang.com/uploads/item/201507/03/20150703223617_zKCB5.jpeg')fixed;
+}
+
+/**窗口背景的透明虚化效果**/
+body>#wrapper,body>.wrap,body>#main,body #appbar,body #hdtbSum {
+    background: rgba(225,225,225,0);
+}
+
+/**搜索页面滚动条**/
+::-webkit-scrollbar {
+    width:12px; /*滚动条宽度*/
+}
+::-webkit-scrollbar-track-piece {
+    background-color:rgb(151, 204, 230); /*滑道*/
+    -webkit-border-radius:10px; /*滑道圆角宽度*/
+}
+::-webkit-scrollbar-thumb {
+    background-color:rgb(151, 204, 230); /*滑动条表面*/
+    border:solid 3px rgb(204, 255, 255); /*滑动条边框*/
+    border-radius:10px; /*滑动条圆角宽度*/
+}
+
+/**只适用于百度搜索页【从这里开始往下
+	切换按钮**/
+.tabs-li > li.tabs-li-active[data-a-7701177d],.c-tabs-nav .c-tabs-nav-selected {
+    background-color: #e4eef8 !important;
+    color: #3464b3 !important;
+    border-color: #152f84 #152f84 #e4eef8 #152f84 !important;
+}
+
+/**搜索结果背景透明**/
+#wrapper #content_left .result, #wrapper #content_left .c-container,#wrapper #content_left .result h3, #wrapper #content_left .c-container h3 {
+    background-color: #4e1c1c00 !important;
+}
+
+/**翻页按钮**/
+#wrapper #page a,#page .pc{
+    background:#94caf1;/**未选择按钮背景**/
+    color: #ffffff;/**按钮数字颜色**/
+    border: 1px solid rgb(204, 255, 255);/**按钮外边框**/
+}
+#wrapper #page strong .pc {
+    background:#a0c0e5;/**当前页面按钮背景**/
+    color: #112e7a;/**按钮数字颜色**/
+    box-shadow:25px 25px 25px rgba(94, 243, 223, 0.41) inset;/**按钮内边框**/
+    border: 3px solid rgb(204, 255, 255)/**按钮外边框**/
+}
+
+/**搜索标签外发光**/
+#wrapper #content_left .result-op:hover,#wrapper #content_left .result:hover {
+    box-shadow:0 0 15px 12px rgb(204, 255, 255) !important;
+    border:1px solid white !important;
+    background:#d8f4fa5c !important;
+}
+
+/**搜索页面标签框颜色**/
+#wrapper #content_left .c-container,.srg>.g,#wrapper #content_left .result {
+    -webkit-box-shadow: 0 0 2px #00a7ef9c;
+}
+
+/**网页搜索标签内嵌标签**/
+#wrapper #content_left .result-op article:hover {
+    box-shadow:0 0 0px 0px rgb(204, 255, 255) !important;
+    border:0px solid transparent !important;
+    background:#ffffff00 !important;
+}
+.tab-nav-name[data-a-7701177d] {
+    height:30px !important;
+    background:transparent !important;
+    border-bottom:1px solid #071440 !important;
+}
+
+.c-tabs-nav {
+    border-bottom: 1px solid #071a54;
+    background-color: transparent;
+}
+
+.op-stockdynamic-moretab-map {
+    background: #97cce64d !important;
+}
+
+.op-stockdynamic-moretab-tabs-nav .op-stockdynamic-moretab-tabs-nav-selected {
+    background: #a4d7f378 !important;
+    color: #163f8f !important;
+    border: 1px solid #12317b !important;
+    box-shadow:25px 25px 25px rgba(94, 243, 223, 0.41) inset;
+}
+
+.op-stockdynamic-moretab-tabs-nav li {
+    background: #a4d7f378 !important;
+    color: #163f8f !important;
+    border-left: 1px solid #0b2364 !important;
+}
+
+.c-table th {
+    border-color: #0f2667;
+    background-color: #fafafa00;
+}
+
+.c-btn, .c-btn:visited {
+    color: #333!important;
+    background-color: #a4d7f33d !important;
+    border: 1px solid #12317b4a !important;
+}
+
+/**内嵌标签框**/
+#wrapper #content_left .result-op article {
+    -webkit-box-shadow:0 0 2px rgba(18, 56, 141, 0);
+}
+
+/** '官方' 二字透明加边框 **/
+.c-text-public {
+    background-color:#bbf7ff;
+    border:3px solid #3f5ab59c;
+}
+
+/**百度搜索框变圆角**/
+form.fm .s_ipt_wr.bg {
+​    border-radius: 30px;
+​    background: transparent;
+​    width: 66%;
+}
+
+/**百度搜索页页眉**/
+#wrapper #s_tab {
+​    border-bottom: #e0e0e000 1px solid;
+​    background-color: #f8f8f800;
+
+}
+#wrapper #s_tab {
+    border-bottom: #e0e0e000 0px solid;
+    background-color: #f8f8f800;
+}
+body #head {
+    background-color: #f8f8f800 !important;
+    border-bottom: transparent !important;
+}
+#head.s_down {
+    box-shadow: 0 10px 10px 0 rgba(182, 235, 245, 0.77);
+}
+#head .head_wrapper {
+    width: unset;
+    height: 60px;
+}
+/**搜索标签文字**/
+#s_tab a {
+	color: #d200ff;
+}
+#wrapper #s_tab b { /**当前页面按钮**/
+    background-color: #cbf1f378;
+    color: #c900f1;
+    border-bottom: 3px #8900e0 solid;
+}
+/**百度为您找到相关结果&相关工具**/
+.nums,.search_tool {
+    color:#97cce6;
+}
+/**百度搜索页页脚**/
+#foot {
+    background: transparent !important;
+    border-top: transparent !important;
+    text-align: left;
+    height:auto;
+    line-height: 42px;
+
+    margin-top: 40px;
+    }
+#help {
+    background: #ffffff00;
+    zoom: 1;
+    padding: 0 0 0 50px;
+}
+#help a {
+    color: #90caf2;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+/**更改搜索框里的文字颜色**/
+.gLFyf,.s_ipt{
+    color: #00b377 !important;
+}
+
+/**相关搜索**/
+#wrapper #rs {
+    background-color: #ffffff69 !important;
+    border: 1px solid #c7fafc !important;
+}
+#wrapper #rs .tt {
+    background-color: transparent;
+}
+
+#wrapper #rs table tr a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #a300ff;
+}
+
+/*高亮显示**/
+em { /**关键词背景和字体颜色**/
+    font-style: normal;
+    color: #000000;
+    background-color: #00ffdee3;
+}
+#wrapper #content_left .result h3 a em { /**关键词颜色**/
+    color: #000000;
+}
+#wrapper #content_left .c-container h3 a { /**除了关键词以外的标题文字颜色**/
+    color: #d200ff;
+}
+
+/**搜索出来的小字颜色**/
+body,.c-row {
+    color: #8b00ff;
+}
+.op_jingyan_list a,.c-gray,.op-short-video-pc-source { /**百度经验字体文字**/
+    text-decoration: none;
+    color: #8b00ff !important;;
+    font-size: 12px;
+}
+.m, a.m,div.bbs,.c-author { /**回答时间字体颜色**/
+    color: #ff00f1;
+}
+/**百度首页页脚**/
+#bottom_layer { /**透明**/
+    width: 100%;
+    min-width: 1250px;
+    position: fixed;
+    z-index: 302;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    overflow: hidden;
+    color: #9990;
+    zoom: 1;
+    margin: 0;
+    background-color: #fafafa00;
+    text-align: left;
+    line-height: 40px;
+}
+#bottom_layer a { /**左侧文字**/
+    font-size: 12px;
+    text-decoration: none;
+    color: #142d81;
+}
+#bottom_layer .lh { /**右侧文字**/
+    display: inline;
+    margin-right: 20px;
+	color: #0c1849 !important;
+}
+.wrapper_new #foot #help {
+    padding-left: 46px!important;
+    background: #f5f5f600;
+}
+#bottom_layer .s-bottom-layer-right a:hover { /**京公网安备11000002000001号**/
+    color: #011343 !important;
+}
+/**百度首页LOGO**/
+#lg .index-logo-src {  		  
+    content:url(https://s1.ax1x.com/2020/03/27/GC4Mc9.png);
+}
+/**百度搜索页LOGO**/
+#result_logo img {
+    content:url(https://s1.ax1x.com/2020/03/27/GC4Mc9.png);
+}
+/**知乎标题**/
+.ContentItem-title {
+    color: #008cff;
+}
+/**AC自动翻页按钮**/
+.sp-separator a {
+    margin: 0 20px 0 -6px !important;
+    display: inline !important;
+    text-shadow: #fff 0 1px 0 !important;
+    background: none !important;
+    color:#d200ff !important;
+}
+.sp-separator {
+    border-color: #cdeefc;
+    background-color: #ffffff00;
+}
+.s_form_nologin .s_btn {/**百度一下宽度和高度**/
+    width: 100px;
+    height: 38px;
+}
+.s_form_nologin .s_ipt_wr:hover { /**搜索框发光**/
+    border-color: #fff #ffffff00 #ffffff #fff;
+    box-shadow: 0 0 15px 12px rgb(204, 255, 255) !important;
+}
+/**鼠标滑过发光**/
+#rso .g:hover {
+    box-shadow:0 0 15px 12px rgb(204, 255, 255) !important;
+    border:1px solid white !important;
+    background:#d8f4fa5c !important;
+}
+/**AC自定义按钮**/
+#myuser .myuserconfig {
+    background: #2866bd00 !important;
+    color: #606f72 !important;
+    border:#E5E5E5 !important;
+}
+#myuser .myuserconfig:hover {
+    background: #5b95ec38 !important;
+}
+#myuser .myuserconfig {
+    height: 59px;
+}
