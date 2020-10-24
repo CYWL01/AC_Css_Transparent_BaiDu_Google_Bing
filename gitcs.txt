@@ -7,3 +7,17 @@
 在测试一次
 
 现在是在测试虚拟机里面的vs有没有记住密码和到底可不可以推送
+
+好象是先从VS里面克隆GitHub的仓库，然后打开终端输入
+
+git config --global user.name "用户名"
+
+git config --global user.email "用户邮箱"
+
+git config --global credential.helper store
+
+这三段在终端运行完之后打开vs，修改一下文件，然后点击提交（√）就会将刚刚修改的文件保存在Git的本地仓库里
+
+这个时候点击 √ 右边的 • • • 会有个菜单，点击推送，第一次会让填写帐号密码登录GITHUB什么的，之后就好了
+
+至此，测试完成！
