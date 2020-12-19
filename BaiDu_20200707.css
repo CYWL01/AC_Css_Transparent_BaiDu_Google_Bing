@@ -132,6 +132,9 @@ form.fm .s_ipt_wr.bg {
 ​    width: 66%;
 }
 
+/**百度搜索页head透明**/
+body #head{backdrop-filter: blur(0px)}；
+
 /**百度搜索页页眉**/
 #wrapper #s_tab {
 ​    border-bottom: #e0e0e000 1px solid;
