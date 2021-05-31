@@ -1,4 +1,4 @@
-# beautiful baidu google html
+# AC_Css_transparent_BaiDu_Google_Bing
 
 ### 注意事项
 >点开文件，复制里面的代码，粘贴到油猴脚本AC重定向自定义窗口  
