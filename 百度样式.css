@@ -1,0 +1,169 @@
+/**计数器的颜色样式*/
+  div .AC-CounterT{
+    background: #FD9999;
+  }
+  /**百度样式区域**/
+  body[baidu] {
+    position: relative;
+    
+    /**右侧栏的样式-其实不开启更好看一些*/
+    #content_right{
+      padding: 20px 15px 15px;
+      border-radius: 5px;
+      background-color: #fff;
+      box-sizing: border-box;
+      box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+      -webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+      -moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    }
+  
+    &:before{
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      content: '';
+      background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F7210c4cd31ae14cc8671493b6c06c9b6a59dc01e.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650970926&t=6373b8eb8222f4f3af4028d4d4b3e30c');
+      background-size: 100% auto;
+      opacity: 0.6; /*背景图透明度=0.8，最大1*/
+    }
+    
+    /**隐藏首页的大图标-修复可能导致外援样式异常**/
+    #s_lg_img_new{
+      display:none !important;
+    }
+    
+    .c-container{
+      border-radius: 5px;
+      background-color: rgba(255,255,255, 0.6) !important; /*百度搜索块体的颜色；透明度=0.1，最大1*/
+      
+      h3{
+        background-color: rgba(248,248,248, 0.6) !important; /*百度搜索块体 - 标题的颜色；透明度=0.1，最大1*/
+      }
+    }
+  }
+  body[google] {
+  
+    &:before {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      content: '';
+      background-image: url('https://img.tujidu.com/image/620210010b2cd.jpg');
+      background-size: 100% auto;
+      opacity: 0.8; /*背景图透明度=0.8，最大1*/
+    }
+    
+    #rso .g, .sfbg, .f6F9Be, .k8XOCe {
+      background-color: rgba(248,248,248, 0.6) !important; 
+    }
+    
+    .sfbg{
+      margin-top: -10px;
+    }
+    
+    .yg51vc{
+      background-color: transparent !important; 
+    }
+  }
+  /*页面卡片*/
+  #wrapper #content_left>.c-container:hover, #wrapper #content_left>.result:hover, #wrapper #content_left>.c-container:hover article {
+     background-color: #ffffff9e !important;
+     border: 10px solid #ff00004d;
+     box-shadow: 0 0 10px #00ff0c;
+     -webkit-box-shadow: 0 0 25px #00ffdec2;
+     -moz-box-shadow: 0 0 1px gray;
+	 /*圆角*/
+	 border-radius: 15px;
+  }
+  /*网页下拉 最上面的那一栏*/
+body #head {
+    background-color: #00edff00;
+    border-bottom: none;
+    backdrop-filter: blur(10px);
+}
+/**搜索页面滚动条**/
+::-webkit-scrollbar {
+    width:12px; /*滚动条宽度*/
+}
+::-webkit-scrollbar-track-piece {
+    background-color:rgb(151, 204, 230); /*滑道*/
+    -webkit-border-radius:10px; /*滑道圆角宽度*/
+}
+::-webkit-scrollbar-thumb {
+    background-color:rgb(151, 204, 230); /*滑动条表面*/
+    border:solid 3px rgb(204, 255, 255); /*滑动条边框*/
+    border-radius:10px; /*滑动条圆角宽度*/
+}
+/**翻页按钮**/
+#wrapper #page a,#page .pc{
+    background:#94caf1;/**未选择按钮背景**/
+    color: #ffffff;/**按钮数字颜色**/
+    border: 1px solid rgb(204, 255, 255);/**按钮外边框**/
+}
+#wrapper #page strong .pc {
+    background:#a0c0e5;/**当前页面按钮背景**/
+    color: #112e7a;/**按钮数字颜色**/
+    box-shadow:25px 25px 25px rgba(94, 243, 223, 0.41) inset;/**按钮内边框**/
+    border: 3px solid rgb(204, 255, 255)/**按钮外边框**/
+}
+#wrapper #page .n:hover, #wrapper #page a:hover .pc {
+    border: 1px solid transparent;
+    background: #ff00004d;
+    color: #ffffff;
+}
+#page {
+    background-color: #f5f5f600 !important;
+	/*百度 相关搜索 背景框*/
+}.new-pmd #rs_new {
+    background-color: #ffffff9e;
+    width: calc(100% - 20px);
+    padding: 10px 0 10px 20px;
+}
+	/*百度 相关搜索  词条 背景框*/
+.rs-link_2DE3Q {
+    display: inline-block;
+    padding: 10px 12px;
+    margin-bottom: -10px;
+    background: #a8c5db42 !important;
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    border-radius: 17px;
+    text-align: left;
+    width: 224px;
+}
+.rs-link_2DE3Q:hover {
+    text-decoration: none;
+    color: #ffffff !important;
+    background: #83c0ed !important;
+}
+/**百度首页LOGO**/
+#lg .index-logo-src {  		  
+    content:url(https://s1.ax1x.com/2020/03/27/GC4Mc9.png);
+}
+/**百度搜索页LOGO**/
+#result_logo img {
+    content:url(https://s1.ax1x.com/2020/03/27/GC4Mc9.png);
+}
+/*高亮显示**/
+em { /**关键词背景和字体颜色**/
+    font-style: normal;
+    color: #000000;
+    background-color: #ff00004d;
+}
+#wrapper #content_left .result h3 a em { /**关键词颜色**/
+    color: #ffffff;
+}
+#wrapper #content_left .c-container h3 a { /**除了关键词以外的标题文字颜色**/
+    color: #087da1;
+}
+#wrapper #content_left .result-op h3 a em {
+    color: #ffffff;
+    font-weight: bold;
+}
+/*以上是百度 以下是BING*/
+/*BING暂时 还有点问题，我下去在看看*/
